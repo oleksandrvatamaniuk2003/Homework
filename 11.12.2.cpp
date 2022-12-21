@@ -11,7 +11,7 @@ int main(){
         cout << "  " << i_for_initial_value << "  ";
     }
     cout << "\n";
-    for(int i_for_initial_value = 1; i_for_initial_value <= n; i_for_initial_value+=1){
+    for(int iforinitialvalue = 1; i_for_initial_value <= n; i_for_initial_value+=1){
         if(sqrt(i_for_initial_value) == round(sqrt(i_for_initial_value))){
             cout.precision(0);
             cout << "  " << sqrt(i_for_initial_value) << " ";
